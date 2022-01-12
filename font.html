@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>フォント・行</title>
+  <style>
+    .size{
+      font-size: 50%;
+    }
+    .style{
+      font-style: italic;
+    }
+    .decoration{
+      text-decoration: underline;
+    }
+    .align{
+      text-align: center;
+    }
+    .l_hight{
+      line-height: 300%;
+      background-color: gray;
+    }
+    .indent{
+      text-indent: 2rem;
+    }
+
+  </style>
+</head>
+<body>
+  <p>通常の文字<span class="size">50%の文字</span></p>
+  <p>通常の文字abc<span class="style">筆記体の文字abc</span>通常の文字abc</p>
+  <p>通常の文字<span class="decoration">下線の文字</span></p>
+  <p class="align">文字の配置を中央に</p>
+  <p class="l_hight">行の高さが高い</p>
+  <p class="inent">段落の先頭行を２文字下げる</p>
+</body>
+</html>

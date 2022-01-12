@@ -1,0 +1,53 @@
+body {
+  background-image: url(body_bg.png);
+  background-repeat: repeat;
+  font-size: 14px;
+  text-align: center;
+}
+header h1 {
+  background-image: url(title_bg.png);
+  color: white;
+  font-size: 20px;
+  background-size: cover;
+  height: 30px;
+  /* width: 100%; */
+  padding: 10px;
+  line-height: 40px;
+}
+section h2 {
+  color: crimson;
+  font-size: 20px;
+  margin-top: 20px;
+  height: 30px;
+  padding: 10px;
+}
+#image {
+  margin: 0 auto;
+  height: 300px;
+  width: 400px;
+  background-color: white;
+  border: 10px gray solid;
+}
+#sentence {
+  font-size: 20px;
+  margin: 20px;
+  font-weight: 200;
+}
+nav h3 {
+  color: steelblue;
+  margin: 20px;
+}
+ul li {
+  display: inline-block;
+  margin: 20px 5px;
+  text-decoration: underline;
+  cursor: pointer;
+}
+ul li:hover {
+  background-color: hotpink;
+}
+footer p {
+  color: grey;
+  font-size: 11px;
+  margin-top: 20px;
+}

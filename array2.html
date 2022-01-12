@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>配列2人分のテストの点数を計算するスクリプト</title>
+</head>
+<body>
+  <script>
+    let scoreA=[80,75,60];
+    let sumA=0;
+    for(let i=0;i<scoreA.length;i++){
+      sumA+=scoreA[i];
+    }
+    document.write("Aさんの点数の合計は"+sumA+"点です<br>");
+
+    let scoreB = [80, 75, 60,100,50];
+      let sumB = 0;
+      for (let i = 0; i < scoreB.length; i++) {
+        sumB += scoreB[i];
+      }
+      document.write("Bさんの点数の合計は" + sumB + "点です<br>");
+
+  </script>
+</body>
+</html>
